@@ -8,8 +8,6 @@ import plotly.express as px
 import plotly.graph_objects as go
 from datetime import datetime
 
-st.set_page_config(page_title="Sales Dashboard", page_icon="📈", layout="wide")
-
 # Load data
 @st.cache_data
 def load_data():

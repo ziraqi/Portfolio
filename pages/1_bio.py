@@ -4,8 +4,6 @@ Bio Page - Professional Information
 
 import streamlit as st
 
-st.set_page_config(page_title="Bio - Zakaria Iraqi", page_icon="📄", layout="wide")
-
 # Header
 st.title("📄 Professional Bio")
 st.markdown("---")

@@ -8,8 +8,6 @@ import plotly.express as px
 import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 
-st.set_page_config(page_title="EDA Gallery", page_icon="📊", layout="wide")
-
 # Load data
 @st.cache_data
 def load_data():

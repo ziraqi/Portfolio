@@ -4,7 +4,6 @@ Future Work Page - Next Steps and Reflections
 
 import streamlit as st
 
-st.set_page_config(page_title="Future Work", page_icon="🧭", layout="wide")
 
 # Header
 st.title("🧭 Future Work & Project Reflection")
