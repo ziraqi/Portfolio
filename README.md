@@ -177,6 +177,17 @@ This project utilized ChatGPT (GPT-4) for:
 
 All final implementations, analyses, and insights are original work.
 
+## 📸 Screenshots
+
+### Heat Map
+![Heat Map](assets/ss1.jpg)
+
+### Dashboard with Filters
+![Dashboard with Filters](assets/ss2.jpg)
+
+### Future Projects
+![Future Projects](assets/ss3.jpg)
+
 ## 🔮 Future Enhancements
 
 Planned improvements include:
