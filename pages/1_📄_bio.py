@@ -35,7 +35,7 @@ with col2:
     
     I'm Zakaria Iraqi, a Computer Science student at Metropolitan State University of Denver graduating 
     in December 2025. With nearly 4 years of experience at Nike as a Visual Merchandising Specialist 
-    and recent completion of a Frontend Software Developer Internship at DeNovo Solutions, I combine 
+    and recent participation of a Frontend Software Developer Internship at DeNovo Solutions, I combine 
     creative problem-solving with technical expertise.
     
     I'm passionate about leveraging technology to solve real-world problems, particularly in data 
@@ -61,7 +61,7 @@ with col1:
     - Data Visualization (CS-39AE)
     - Algorithms & Data Structures
     - Cybersecurity
-    - Programming Languages Theory
+    - Principles of Programming Languages
     - Capstone: ML Drift Detection System
     """)
 
