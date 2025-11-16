@@ -226,8 +226,8 @@ df['Model_Segment'] = df['Model'].apply(lambda x: 'Performance' if x in ['M3', '
                                           else ('SUV' if x.startswith('X') 
                                                 else 'Sedan'))
 
-# Sample data for better visualization (scatter plots can be dense)
-scatter_df = df.sample(n=min(5000, len(df)), random_state=42)
+# Sample FEWER data points for clearer visualization
+scatter_df = df.sample(n=min(1000, len(df)), random_state=42)
 
 fig4 = px.scatter(scatter_df, 
                   x='Mileage_KM', 
@@ -240,8 +240,10 @@ fig4 = px.scatter(scatter_df,
                           'Price_USD': 'Price (USD)',
                           'Model_Segment': 'Segment'},
                   trendline="ols",
-                  opacity=0.6)
+                  opacity=0.4,  # Lower opacity
+                  color_discrete_sequence=['#1f77b4', '#ff7f0e', '#2ca02c'])  # Distinct colors
 
+fig4.update_traces(marker=dict(size=8, line=dict(width=0.5, color='white')))  # Add white borders
 fig4.update_layout(height=600)
 st.plotly_chart(fig4, use_container_width=True)
 
