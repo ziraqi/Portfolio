@@ -274,6 +274,6 @@ st.markdown("""
 st.markdown("---")
 st.markdown("""
 <div style='text-align: center; color: #666; padding: 1rem 0;'>
-    <p>Interactive Dashboard | Built with Streamlit & Plotly | © 2024 Zakaria Iraqi</p>
+    <p>Interactive Dashboard | Built with Streamlit & Plotly | © 2025 Zakaria Iraqi</p>
 </div>
 """, unsafe_allow_html=True)

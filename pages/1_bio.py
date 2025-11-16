@@ -13,7 +13,7 @@ col1, col2 = st.columns([1, 2])
 
 with col1:
     # Placeholder for profile image
-    st.image("https://via.placeholder.com/300x300.png?text=Zakaria+Iraqi", 
+    st.image("assets/ZakHeadshot.jpg", 
              caption="Zakaria Iraqi - CS Student & Data Enthusiast",
              use_container_width=True)
     
