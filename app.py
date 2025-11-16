@@ -78,7 +78,11 @@ import pandas as pd
 
 @st.cache_data
 def load_data():
-    return pd.read_csv('assets/BMWdata.csv')
+       try:
+           return pd.read_csv('assets/BMWdata.csv')
+       except FileNotFoundError:
+           st.error("Data file not found! Please check assets/BMWdata.csv exists.")
+           return None
 
 try:
     df = load_data()
