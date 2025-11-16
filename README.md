@@ -6,7 +6,7 @@ An interactive multi-page Streamlit application showcasing data visualization an
 
 This portfolio application analyzes 50,000 BMW vehicle sales records to uncover market trends, pricing strategies, and the impact of electrification on sales performance. Built as part of the Data Visualization course (CS-39AE) at Metropolitan State University of Denver.
 
-**Live Demo:** [Your Streamlit Cloud URL here]
+**Live Demo:** https://portfolio-ihk99pcrgho669e9zmg8sn.streamlit.app/
 
 ## 👨‍💻 Author
 
@@ -85,10 +85,11 @@ Python 3.8 or higher
 ### Dependencies
 
 ```
-streamlit==1.38.0
-pandas==2.2.1
-numpy==1.26.4
-plotly==5.20.0
+streamlit
+pandas
+numpy
+plotly
+statsmodels
 ```
 
 ## 🚀 Installation & Setup
@@ -138,9 +139,9 @@ streamlit_portfolio/
 │   ├── 2_📊_EDA_Gallery.py    # Exploratory data analysis
 │   ├── 3_📈_Dashboard.py      # Interactive dashboard
 │   └── 4_🧭_Future_Work.py    # Future enhancements
-├── data/
-│   └── bmw_sales.csv          # BMW sales dataset
 ├── assets/                     # Images, logos (if any)
+│   └── bmw_sales.csv          # BMW sales dataset
+│   └── headshot.jpg          # Profile Picture
 ├── requirements.txt            # Python dependencies
 └── README.md                   # This file
 ```
@@ -165,9 +166,6 @@ streamlit_portfolio/
 - 📦 Efficient data loading and processing
 - 🚀 Optimized for 50K+ row datasets
 
-## 📸 Screenshots
-
-[Add 1-3 screenshots of your key pages here]
 
 ## 🤖 AI Assistance Acknowledgment
 
@@ -196,20 +194,10 @@ Dataset source: [Ahmad Raza Kashif on Kaggle](https://www.kaggle.com/datasets/ah
 
 ## 🙏 Acknowledgments
 
-- **Professor:** [Your professor's name] - CS-39AE Data Visualization
+- **Professor:** Dr. Ranjidha Rajan - CS-39AE Data Visualization
 - **Institution:** Metropolitan State University of Denver
 - **Dataset:** Ahmad Raza Kashif (Kaggle)
 - **Tools:** Streamlit, Plotly, Pandas development teams
 
-## 📧 Contact
 
-For questions, feedback, or collaboration opportunities:
-- **Email:** [Your email]
-- **LinkedIn:** [Your LinkedIn]
-- **Portfolio:** [This Streamlit App URL]
-
----
-
-**Built with ❤️ using Python, Streamlit, and Plotly**
-
-© 2024 Zakaria Iraqi | Metropolitan State University of Denver
+© 2025 Zakaria Iraqi | Metropolitan State University of Denver
