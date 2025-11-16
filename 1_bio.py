@@ -21,7 +21,7 @@ with col1:
     
     st.markdown("""
     ### 📧 Contact
-    **Email:** zakaria.iraqi@msudenver.edu  
+    **Email:** zakaria.iraqi@gmail.com  
     **LinkedIn:** https://www.linkedin.com/in/zakaria-iraqi-1355b7272/  
     **GitHub:** https://github.com/ziraqi
     
