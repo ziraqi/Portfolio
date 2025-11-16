@@ -13,7 +13,7 @@ st.set_page_config(page_title="Sales Dashboard", page_icon="📈", layout="wide"
 # Load data
 @st.cache_data
 def load_data():
-    df = pd.read_csv('data/bmw_sales.csv')
+    df = pd.read_csv('assets/BMWdata.csv')
     return df
 
 df = load_data()
