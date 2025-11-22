@@ -517,37 +517,6 @@ if sample_paths:
 
 st.markdown("---")
 
-# Key Findings Section
-st.header("🔑 Key Findings & Insights")
-
-col1, col2 = st.columns(2)
-
-with col1:
-    st.markdown("""
-    **Network Structure:**
-    - The network shows a connected structure with 10 students and 16 friendships
-    - Average student has 3.2 friends, indicating moderate connectivity
-    - Network density is relatively low, suggesting room for more connections
-    
-    **Most Connected Students:**
-    - The top 3 most connected students have more influence through direct relationships
-    - Some students serve as bridges between different social groups
-    """)
-
-with col2:
-    st.markdown(f"""
-    **Influence & Communities:**
-    - **{most_influential}** is the most influential for information spreading
-    - The network naturally divides into **{num_communities} friend groups**
-    - Community structure suggests distinct social circles within the class
-    
-    **Practical Implications:**
-    - Class projects: Pair students from different communities for diversity
-    - Information dissemination: Use {most_influential} as a communication hub
-    - Social events: Consider community preferences when planning activities
-    """)
-
-st.markdown("---")
 
 # Data Ethics Note
 st.info("""
@@ -564,6 +533,5 @@ st.markdown("---")
 st.markdown("""
 <div style='text-align: center; color: #666; padding: 1rem 0;'>
     <p><em>"In graph theory, every connection tells a story."</em></p>
-    <p>Lab 6.1 - Network Visualization & Analysis | Built with NetworkX, Plotly & Streamlit</p>
 </div>
 """, unsafe_allow_html=True)
